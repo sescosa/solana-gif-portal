@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "name": "myepicproject",
+  "name": "mysolanaproject",
   "instructions": [
     {
       "name": "startStuffOff",
@@ -43,38 +43,6 @@
           "type": "string"
         }
       ]
-    },
-    {
-      "name": "upVote",
-      "accounts": [
-        {
-          "name": "baseAccount",
-          "isMut": true,
-          "isSigner": false
-        }
-      ],
-      "args": [
-        {
-          "name": "index",
-          "type": "u64"
-        }
-      ]
-    },
-    {
-      "name": "downVote",
-      "accounts": [
-        {
-          "name": "baseAccount",
-          "isMut": true,
-          "isSigner": false
-        }
-      ],
-      "args": [
-        {
-          "name": "index",
-          "type": "u64"
-        }
-      ]
     }
   ],
   "accounts": [
@@ -112,23 +80,12 @@
           {
             "name": "userAddress",
             "type": "publicKey"
-          },
-          {
-            "name": "votes",
-            "type": "i64"
           }
         ]
       }
     }
   ],
-  "errors": [
-    {
-      "code": 300,
-      "name": "NoItemFound",
-      "msg": "No item with that url found"
-    }
-  ],
   "metadata": {
-    "address": "D4mKXftPNrDZzAN79DTBMQz1xL3xL4DkGGu4mCYnnrUc"
+    "address": "HASmujj7zxGH14LWymYvN785wzKFWEfjhxKZ14EzAg8M"
   }
 }

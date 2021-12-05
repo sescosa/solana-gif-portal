@@ -1,0 +1,12 @@
+[programs.devnet]
+mysolanaproject = "HASmujj7zxGH14LWymYvN785wzKFWEfjhxKZ14EzAg8M"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/sergio/.config/solana/id.json"
+
+[scripts]
+test = "node tests/mysolanaproject.js"
